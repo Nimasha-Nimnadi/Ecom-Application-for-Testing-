@@ -1,0 +1,95 @@
+/* src/App.css */
+
+/* Background Gradient */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #7b4397, #dc2430);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: rgba(52, 58, 64, 0.9); /* Slightly transparent dark background */
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #ff9900 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #130101;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff9900;
+}
+
+/* Container Styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.95); /* Slight transparency for contrast */
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Form Container Styling */
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  color: #333;
+}
+
+.card h4 {
+  color: #ff9900;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus {
+  border-color: #ff9900;
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e68a00;
+}
